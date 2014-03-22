@@ -1,9 +1,10 @@
-// 2014 ASCII To Aheui Code Converter
+// 2014.03.22 ASCII Character To Aheui Code Converter
+// made by choijiwon
+// 1890mah@gmail.com
 
 
 var setvalue = false; //한 번에 출력 설정 
 var count = 0;
-// ASCII A~Z, a~z
 var dic={
 	' ' : '84*', //32
 	'!' : '65+3*', //33
@@ -155,15 +156,10 @@ function aheuiro(insu) {
 	else if(insu == '+') return '다';
 	else if(insu == '*') return '따';
  	else if(insu == '-') return '타';
-
-
- 	console.log("랜덤값 "+ rand);
 }
 
 function gyesan(insu) {
 	for(var j=0; j<dic[insu].length; j++) {
-
-		console.log(dic[insu].charAt(j));
 		$('#txtaheui').append( aheuiro(dic[insu].charAt(j)) );
 		count++;
 	}
@@ -179,7 +175,6 @@ function chulryeok() {
 		$('#setbutton').attr('value', '한번에 출력');
 	}
 	else {
-	console.log("aaa");
 		setvalue = true;
 		$('#setbutton').attr('value', '한 자씩 출력');
 	}
@@ -189,7 +184,6 @@ function byeonhwan() {
 	$('#txtaheui').html('');
 	count = 0;
 	for(var i=0; i<$('#txtascii').val().length; i++) {
-		console.log(i+"번째 "+$('#txtascii').val().charAt(i));
 		gyesan($('#txtascii').val().charAt(i));
 	}
 	if(setvalue) {

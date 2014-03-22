@@ -11,10 +11,6 @@ app.get('/', function(req, res) {
 app.get('/js.js', function(req, res) {
   res.sendfile('/usr/js.js', {root:__dirname});
 });
-app.get('/style.css', function(req, res) {
-  res.sendfile('/usr/style.css', {root:__dirname});
-});
-
 var port = Number(process.env.PORT || 5000);
 app.listen(port, function() {
   console.log("Listening on " + port);
