@@ -1,0 +1,26 @@
+{
+  "name": "ASCII-To-Aheui",
+  "version": "0.0.0",
+  "description": "아스키 문자를 아희 코드로 변환",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seosan/ASCII-To-Aheui.git"
+  },
+  "keywords": [
+    "Aheui"
+  ],
+  "author": "choijiwon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seosan/ASCII-To-Aheui/issues"
+  },
+  "homepage": "https://github.com/seosan/ASCII-To-Aheui",
+  "dependencies": {
+    "logfmt": "~1.0.0",
+    "express": "~3.5.0"
+  }
+}
