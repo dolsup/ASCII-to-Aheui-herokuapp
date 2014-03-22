@@ -56,4 +56,6 @@ var dic={
 }
 
 
-
+function byeonhwan() {
+	if ($('txtascii').value="a") $('txtaheui').value="a");
+}
