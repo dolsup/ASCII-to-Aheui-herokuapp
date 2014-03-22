@@ -1,6 +1,6 @@
 {
   "name": "ASCII-To-Aheui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Convert ASCII Character into Aheui code",
   "main": "web.js",
   "scripts": {
@@ -23,8 +23,8 @@
     "logfmt": "~1.0.0",
     "express": "~3.5.0"
   },
-   "engines": {
-     "node": "0.10.x",
-     "npm": "1.2.x"
-  }
+   "engines":  {
+    "npm" : "~1.0.20" 
+    } 
+  
 }
