@@ -1,7 +1,7 @@
 {
   "name": "ASCII-To-Aheui",
   "version": "0.0.0",
-  "description": "아스키 문자를 아희 코드로 변환",
+  "description": "Convert ASCII Character into Aheui code",
   "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,9 @@
   "dependencies": {
     "logfmt": "~1.0.0",
     "express": "~3.5.0"
+  },
+   "engines": {
+     "node": "0.10.x",
+     "npm": "1.2.x"
   }
 }
