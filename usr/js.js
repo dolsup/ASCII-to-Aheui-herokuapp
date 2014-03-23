@@ -161,8 +161,8 @@ function aheuiro(insu) {
 function gyesan(insu) {
 	for(var j=0; j<dic[insu].length; j++) {
 		$('#txtaheui').append( aheuiro(dic[insu].charAt(j)) );
-		count++;
 	}
+	count++;
 	if(!setvalue) $('#txtaheui').append('맣');
 }
 
